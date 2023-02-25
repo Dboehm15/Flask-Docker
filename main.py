@@ -1,6 +1,8 @@
 from flask import Flask
+from main.launch.launchListen import launchListen
 
 app = Flask(__name__)
+app.register_blueprint(launchListen, url_prefix="/launch")
 
 
 @app.route("/")
