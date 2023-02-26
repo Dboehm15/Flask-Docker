@@ -1,10 +1,10 @@
-from flask import Blueprint, request, render_template, json
+from flask import Blueprint, request, json
 
-launchClient = Blueprint('launchListen', __name__)
+launchTest = Blueprint('launchListen', __name__)
 
 
-@launchClient.route('/client', methods=['POST'])
-@launchClient.route('/')
+@launchTest.route('/test', methods=['POST'])
+@launchTest.route('/')
 def launch():
     try:
         postthang = request.form['thang']
@@ -17,3 +17,7 @@ def launch():
             return "You need to post stuff and thangs"
 
         return json.dumps({'errorMessage': str(e)})
+
+#    curl --location --request POST 'http://127.0.0.1:80/launch/test' \
+#                                   --form 'stuff="6"' \
+#                                          --form 'thang="5"'

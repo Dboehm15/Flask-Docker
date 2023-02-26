@@ -1,8 +1,8 @@
 from flask import Flask, render_template
-from main.launch.launchClient import launchClient
+from main.launch.test import launchTest
 
 app = Flask(__name__)
-app.register_blueprint(launchClient, url_prefix='/launch')
+app.register_blueprint(launchTest, url_prefix='/launch')
 
 
 @app.route('/')
