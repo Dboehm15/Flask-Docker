@@ -1,5 +1,6 @@
 from test.docker import dockerTest
 from test.testEnv import *
+from test.blizzard import *
 
 # Run the app in a container
 runDocker()
@@ -7,6 +8,7 @@ runDocker()
 # Run the tests
 try:
     checkResult("Docker build works", dockerTest())
+    test_getSeason()
 except Exception as e:
     print(e)
 
