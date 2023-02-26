@@ -2,12 +2,12 @@ from flask import Flask, render_template
 from main.launch.launchListen import launchListen
 
 app = Flask(__name__)
-app.register_blueprint(launchListen, url_prefix="/launch")
+app.register_blueprint(launchListen, url_prefix='/launch')
 
 
-@app.route("/")
+@app.route('/')
 def index():
-    return render_template("index.html")
+    return render_template('base.html')
 
 
-app.run(host="0.0.0.0", port=80, debug=True)
+app.run(host='0.0.0.0', port=80, debug=True)

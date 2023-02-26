@@ -1,0 +1,15 @@
+{% extends "index.html" %}
+{% block content %}
+<div class="container">
+    <form class="row" action="/launch/client" method="post">
+        <div class="row">
+            <div class="col align-self-start">
+                <input type="password" name='thing' class="form-control" placeholder="The thing">
+            </div>
+            <div class="col align-self-start">
+                <button type="submit" class="btn btn-primary">Go</button>
+            </div>
+        </div>
+    </form>
+</div>
+{% endblock %}
