@@ -9,5 +9,6 @@ ADD main* main
 ADD test* test
 
 RUN pip install flask
+RUN pip install requests
 
 CMD ["python", "./main.py"]

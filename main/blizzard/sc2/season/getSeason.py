@@ -8,12 +8,21 @@ cseason = Blueprint('cseason', __name__)
 @cseason.route('/getseason')
 @cseason.route('/')
 def season():
-    thisDir = os.path.dirname(__file__)
-    authDir = thisDir[:55] + "OAuth\\data.json"
-
-    f = open(authDir)
-    data = json.load(f)
-    token = data["access_token"]
+    # TODO Make a function that can be called to get the auth token
+    try:
+        thisDir = os.path.dirname(__file__)
+        authDir = thisDir[:55] + "OAuth\\data.json"
+        f = open(authDir)
+        data = json.load(f)
+        token = data["access_token"]
+        output = thisDir + "\\data.json"
+    except FileNotFoundError:
+        thisDir = os.path.dirname(__file__)
+        authDir = thisDir[:15] + "/OAuth/data.json"
+        f = open(authDir)
+        data = json.load(f)
+        token = data["access_token"]
+        output = thisDir + "/data.json"
 
     # TODO make this a post variable sent in the request
     # options are 1=US 2=EU 3=KO and TW 5=CN
@@ -24,7 +33,7 @@ def season():
     response = requests.get(url)
     data = response.json()
 
-    with open(thisDir + "\data.json", "w") as f:
+    with open(output, "w") as f:
         json.dump(data, f)
 
     return data
