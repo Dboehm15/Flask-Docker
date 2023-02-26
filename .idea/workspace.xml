@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="759f0f1a-bdab-4377-a310-565dde44723c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/main/blizzard/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/blizzard/sc2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/blizzard/OAuth/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/blizzard/OAuth/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/blizzard/OAuth/requestAuth.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +52,7 @@
       <recent name="C:\Users\catin\Desktop\repo\Flask-Valheim-Docker\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\catin\Desktop\repo\Flask-Docker\collections\blizzard" />
       <recent name="C:\Users\catin\Desktop\repo\Flask-Docker\main\healthCheck" />
       <recent name="C:\Users\catin\Desktop\repo\Flask-Valheim-Docker" />
       <recent name="C:\Users\catin\Desktop\repo\Flask-Valheim-Docker\main" />
