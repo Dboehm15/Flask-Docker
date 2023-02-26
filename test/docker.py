@@ -2,7 +2,7 @@ import requests
 
 
 def dockerTest():
-    url = "http://127.0.0.1:80/launch/test"
+    url = "http://127.0.0.1:80/healthcheck/test"
     stuffNthangs = {'stuff': 4,
                     'thang': 5}
 

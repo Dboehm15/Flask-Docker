@@ -1,8 +1,8 @@
 from flask import Flask, render_template
-from main.launch.test import launchTest
+from main.healthCheck.test import healthCheck
 
 app = Flask(__name__)
-app.register_blueprint(launchTest, url_prefix='/launch')
+app.register_blueprint(healthCheck, url_prefix='/healthcheck')
 
 
 @app.route('/')
