@@ -1,11 +1,11 @@
-from flask import Blueprint, request, render_template, json
+from flask import Blueprint, request, json
 
-launchClient = Blueprint('launchListen', __name__)
+healthCheck = Blueprint('healthCheck', __name__)
 
 
-@launchClient.route('/client', methods=['POST'])
-@launchClient.route('/')
-def launch():
+@healthCheck.route('/test', methods=['POST'])
+@healthCheck.route('/')
+def check():
     try:
         postthang = request.form['thang']
         poststuff = request.form['stuff']
@@ -17,3 +17,7 @@ def launch():
             return "You need to post stuff and thangs"
 
         return json.dumps({'errorMessage': str(e)})
+
+#curl --location --request POST 'http://127.0.0.1:80/healthcheck/test' \
+#                               --form 'stuff="3"' \
+#                                      --form 'thang="1"'
