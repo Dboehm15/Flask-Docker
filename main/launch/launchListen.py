@@ -1,9 +1,10 @@
-from flask import Blueprint, request
+from flask import Blueprint, request, render_template
 
-launchListen = Blueprint("launchListen", __name__)
+launchListen = Blueprint('launchListen', __name__)
 
 
-@launchListen.route("/launch", methods=["POST", "GET"])
-@launchListen.route("/")
+@launchListen.route('/client', methods=['POST'])
+@launchListen.route('/')
 def launch():
-    return "stuff"
+    pw = request.form['thing']
+    return pw
