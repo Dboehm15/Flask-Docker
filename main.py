@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from main.healthCheck.test import healthCheck
-from main.blizzard.sc2.season.getSeason import cseason
+from main.blizzard.sc2.ladder.getSeason import cseason
 
 app = Flask(__name__)
 app.register_blueprint(healthCheck, url_prefix='/healthcheck')
