@@ -6,7 +6,7 @@ def test_getSeason():
     mocResponse = {
         'endDate': '1680332400',
         'number': 1,
-        'seasonId': 1,
+        'seasonId': 54,
         'startDate': '1672905600',
         'year': 2023}
 
