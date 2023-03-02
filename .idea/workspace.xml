@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="759f0f1a-bdab-4377-a310-565dde44723c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/blizzard/wow/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/blizzard/wow/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/blizzard/wow/getAh.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/utils/utils.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/runTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/runTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/blizzard.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/blizzard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/blizzard/OAuth/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/main/blizzard/OAuth/data.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +57,7 @@
       <recent name="C:\Users\catin\Desktop\repo\Flask-Valheim-Docker\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\catin\Desktop\repo\Flask-Docker\main\utils" />
       <recent name="C:\Users\catin\Desktop\repo\Flask-Docker\collections\blizzard" />
       <recent name="C:\Users\catin\Desktop\repo\Flask-Docker\main\healthCheck" />
       <recent name="C:\Users\catin\Desktop\repo\Flask-Valheim-Docker" />
