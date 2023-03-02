@@ -8,7 +8,7 @@ cseason = Blueprint('cseason', __name__)
 @cseason.route('/getseason')
 @cseason.route('/')
 def season():
-    # TODO Make a function that can be called to get the auth token
+    # TODO MAKE EVERYTHING USE THE UTILS OBJECT
     try:
         thisDir = os.path.dirname(__file__)
         authDir = thisDir[:55] + "OAuth\\data.json"
