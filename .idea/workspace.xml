@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="759f0f1a-bdab-4377-a310-565dde44723c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/blizzard/wow/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/blizzard/wow/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/blizzard/wow/getAh.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/utils/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/blizzard/OAuth/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/main/blizzard/OAuth/data.json" afterDir="false" />
-    </list>
+    <list default="true" id="759f0f1a-bdab-4377-a310-565dde44723c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
