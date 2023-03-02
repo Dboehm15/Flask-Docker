@@ -10,7 +10,7 @@ EXAMPLES:
 -python main.py stop
 -python main.py ps
 
-## required libraries
+## Required libraries
 Eventually I will add a requirements.txt so these can been auto-installed, but for now just pip install flask and pip install requests
 
 ## IDE
