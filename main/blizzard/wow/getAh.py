@@ -5,7 +5,7 @@ import os
 
 
 ah = Blueprint('ah', __name__)
-
+# TODO MAKE TESTS FOR THE WOW AH
 
 @ah.route('/getAH')
 @ah.route('/')

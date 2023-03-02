@@ -1,6 +1,6 @@
 import json
 
-
+# TODO MAKE DOCUMENTATION FOR THE NEW UTILS OBJECT
 class utils:
     def __init__(self, token, output):
         self.token = token,
