@@ -4,6 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="759f0f1a-bdab-4377-a310-565dde44723c" name="Changes" comment="" />
+=======
     <list default="true" id="759f0f1a-bdab-4377-a310-565dde44723c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
@@ -11,6 +14,7 @@
       <change beforePath="$PROJECT_DIR$/main/blizzard/sc2/season/data.json" beforeDir="false" afterPath="$PROJECT_DIR$/main/blizzard/sc2/ladder/data.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/blizzard/sc2/season/getSeason.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/blizzard/sc2/ladder/getSeason.py" afterDir="false" />
     </list>
+>>>>>>> main
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,6 +57,7 @@
       <recent name="C:\Users\catin\Desktop\repo\Flask-Valheim-Docker\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\catin\Desktop\repo\Flask-Docker\main\utils" />
       <recent name="C:\Users\catin\Desktop\repo\Flask-Docker\collections\blizzard" />
       <recent name="C:\Users\catin\Desktop\repo\Flask-Docker\main\healthCheck" />
       <recent name="C:\Users\catin\Desktop\repo\Flask-Valheim-Docker" />
