@@ -13,5 +13,5 @@ EXAMPLES:
 ## required libraries
 Eventually I will add a requirements.txt so these can been auto-installed, but for now just pip install flask and pip install requests
 
-## IDEA
+## IDE
 I haven't fully figured out the .gitignore list, so for now a few of my IntelliJ files are being updated in the repo every time I commit. The good news is that means that if you use IntelliJ for this project you'll get a preset of some of the settings I use.
