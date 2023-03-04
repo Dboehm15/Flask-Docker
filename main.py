@@ -1,12 +1,14 @@
 from flask import Flask, render_template
+from main.blizzard.wow.getAh import ah
+from main.chatGPT.client import chat
 from main.healthCheck.test import healthCheck
 from main.blizzard.sc2.ladder.getSeason import cseason
-from main.blizzard.wow.getAh import ah
 
 app = Flask(__name__)
 app.register_blueprint(healthCheck, url_prefix='/healthcheck')
 app.register_blueprint(cseason, url_prefix='/sc2')
 app.register_blueprint(ah, url_prefix='/wow')
+app.register_blueprint(chat, url_prefix='/chatGPT')
 
 
 @app.route('/')
