@@ -1,8 +1,6 @@
 from flask import Blueprint, request
-from main.chatGPT.service import gpt
+from main.chatGPT.chatService import gpt
 import random
-
-
 
 recipe = Blueprint('recipe', __name__)
 

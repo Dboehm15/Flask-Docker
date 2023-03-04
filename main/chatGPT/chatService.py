@@ -4,7 +4,7 @@ import os
 
 
 chat = Blueprint('chat', __name__)
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 @chat.route('/service', methods=['POST'])
