@@ -4,14 +4,17 @@ import os
 
 
 chat = Blueprint('chat', __name__)
-openai.api_key = "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"
+openai.api_key = "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"
 
 
-@chat.route('/cli', methods=['POST'])
+@chat.route('/service', methods=['POST'])
 @chat.route('/')
-def gpt():
+def getGpt():
     prompt = request.form['prompt']
+    return gpt(prompt)
 
+
+def gpt(prompt):
     response = openai.Completion.create(
         model="text-davinci-003",
         prompt=prompt,
@@ -25,5 +28,3 @@ def gpt():
         json.dump(response, f)
 
     return response["choices"][0]["text"]
-
-
