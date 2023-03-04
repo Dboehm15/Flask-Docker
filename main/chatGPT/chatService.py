@@ -1,6 +1,5 @@
-from flask import Blueprint, json, request
+from flask import Blueprint, request
 import openai
-import os
 
 
 chat = Blueprint('chat', __name__)
