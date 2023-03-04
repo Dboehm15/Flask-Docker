@@ -4,7 +4,7 @@ import os
 
 
 chat = Blueprint('chat', __name__)
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 @chat.route('/service', methods=['POST'])
@@ -23,8 +23,8 @@ def gpt(prompt):
     )
 
     # data = response["choices"][0]["text"]
-    responseJson = str(os.path.dirname(__file__)) + "\\response.json"
-    with open(responseJson, "w") as f:
-        json.dump(response, f)
+    # responseJson = str(os.path.dirname(__file__)) + "\\response.json"
+    # with open(responseJson, "w") as f:
+    #    json.dump(response, f)
 
     return response["choices"][0]["text"]
